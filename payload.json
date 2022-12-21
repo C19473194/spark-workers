@@ -10,7 +10,7 @@
     {
       "autoDelete": true,
       "boot": true,
-      "deviceName": "slave2",
+      "deviceName": "slave1",
       "initializeParams": {
         "diskSizeGb": "10",
         "diskType": "projects/calcium-aria-371714/zones/us-west4-b/diskTypes/pd-balanced",
@@ -36,7 +36,7 @@
       }
     ]
   },
-  "name": "slave3",
+  "name": "slave1",
   "networkInterfaces": [
     {
       "accessConfigs": [
