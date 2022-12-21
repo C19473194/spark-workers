@@ -39,7 +39,7 @@ def addWorker(token, num):
     tdata['name']='slave'+str(num)
     data=json.dumps(tdata)
     url='https://www.googleapis.com/compute/v1/projects/calcium-aria-371714/zones/europe-west1-b/instances'
-    headers={"Authorization": "Bearer "+ "ya29.a0AX9GBdWMkbq2W4cMN2wzx3lbKXI06LWADhmqB2lJx8y1g-zYDYnvOuXdhhFdPQaqyEmT0QyliWyORO_RtU0CQlfi58_wGriXBrB-fkiN59pg8j8E-bnQiQR1UL9_6N4AExm59OT7Fm-drA9JEYCv_ewbOJWc96-LQxz_F68E7I5LEU8fnjdCEySlWpcKqTxfItvcuN-K010lowEKA6n6HUbwEhAg0ccCG-mMKakaCgYKAaMSARMSFQHUCsbCVO0-jKFSc33u-9Pp2Q4gjQ0238"}
+    headers={"Authorization": "Bearer "+ token}
     resp=requests.post(url,headers=headers, data=data)
     if resp.status_code==200:     
       return "Done"
