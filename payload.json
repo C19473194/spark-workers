@@ -1,4 +1,4 @@
-POST https://www.googleapis.com/compute/v1/projects/calcium-aria-371714/zones/europe-west1-b/instances
+
 {
   "canIpForward": false,
   "confidentialInstanceConfig": {
