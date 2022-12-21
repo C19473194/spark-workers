@@ -36,7 +36,7 @@
       }
     ]
   },
-  "name": "slave2",
+  "name": "slave3",
   "networkInterfaces": [
     {
       "accessConfigs": [
